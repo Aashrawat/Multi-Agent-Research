@@ -1,0 +1,12 @@
+# Secrets - never commit
+.env
+.env.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend (has its own .gitignore too)
+frontend/node_modules/
+frontend/dist/
