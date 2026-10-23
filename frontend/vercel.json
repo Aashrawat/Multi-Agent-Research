@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://multi-agent-research-1-283v.onrender.com"
+      "destination": "https://multi-agent-research-1-283v.onrender.com/api/:path*"
     },
     {
       "source": "/(.*)",
